@@ -8,6 +8,8 @@ const ai = new GoogleGenAI({
     apiKey:process.env.GEMINI_API_KEY
 });
 
+console.log("Starting chat...");
+
 
 async function chat(){
     const query="What programming languages are mentioned in the document?";
